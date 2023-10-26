@@ -1,0 +1,10 @@
+[template]
+cargo_generate_version = ">=0.10.0"
+ignore = [".git","README.md"]
+description = "Micro-RDK Module Template"
+
+[placeholders.mcu]
+type = "string"
+prompt = "MCU"
+choices = ["esp32"]
+default = "esp32"
