@@ -43,8 +43,8 @@ provides a walkthrough of how to implement a module for the Micro-RDK.
 ## Caveats
 
 Module auto-registration is a protocol between this template and the
-[micro-rdk robot
-template](https://github.com/viamrobotics/micro-rdk-robot-template);
+[Micro-RDK Robot
+Template](https://github.com/viamrobotics/micro-rdk-robot-template);
 the Micro-RDK itself does not directly participate. If you create a
 Micro-RDK project from scratch (i.e. it was not created by the robot
 template), then module auto-registration will not happen and your
