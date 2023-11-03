@@ -2,9 +2,7 @@
 
 ## (In)stability Notice
 
-> **Warning** The Viam Micro-RDK is currently in beta. Stability
-> is not guaranteed. Breaking changes are likely to occur, and occur
-> often. This component interacts and integrates with the Micro-RDK and so should also be considered beta.
+> **Warning** The Viam Micro-RDK is currently in beta.
 
 ## Overview
 
@@ -36,9 +34,11 @@ by this template will be automatically invoked at startup.
 
 ## Tutorial
 
-Please see the [ESP32 Sensors Example
-README](https://github.com/viam-labs/micro-rdk-esp32-sensor-examples/blob/main/README.md)
-for a walkthrough of how to implement a module for the Micro-RDK.
+Please see the [ESP32 Sensors
+Example](https://github.com/viam-labs/micro-rdk-esp32-sensor-examples)
+to see an example Micro-RDK module project. The
+[README](https://github.com/viam-labs/micro-rdk-esp32-sensor-examples/blob/main/README.md)
+provides a walkthrough of how to implement a module for the Micro-RDK.
 
 ## Caveats
 
