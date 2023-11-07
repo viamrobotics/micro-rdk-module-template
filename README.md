@@ -15,16 +15,29 @@ Modular resources for the Viam Micro-RDK function differently than
 modular resources for the standard Viam RDK, because they must be
 compiled into the image which will be flashed to the microcontroller.
 
+## Prerequisites
+
+The modules produced using this repository are designed to
+interoperate with projects developed by following the [Micro-RDK
+Development
+Setup](https://docs.viam.com/installation/prepare/microcontrollers/development-setup)
+process. Please ensure that your environment is properly configured
+per those instructions before experimenting with creating Micro-RDK
+modules.
+
 ## Usage
+
+Run the following command to create a new git repository for your
+module (you will be promted for the name) in the current directory:
 
 `cargo generate --git https://github.com/viamrobotics/micro-rdk-module-template`
 
-Answer the prompts, and then implement your modular resources within
-the newly formed project. The `register_models` function defined in
-`src/lib.rs` will be called for you when your robot project starts up,
-and you can register your newly defined models with the Micro-RDK by
-invoking the appropriate methods on the Micro-RDK `ComponentRegistry`
-argument.
+Answer the prompts (project name, target architecture, etc.), and then
+implement your modular resources within the newly formed project. The
+`register_models` function defined in `src/lib.rs` will be called for
+you when your robot project starts up, and you can register your newly
+defined models with the Micro-RDK by invoking the appropriate methods
+on the Micro-RDK `ComponentRegistry` argument.
 
 Once you have implemented your module, you can use it in your
 Micro-RDK robot project simply by adding it as a standard dependencies
