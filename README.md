@@ -1,5 +1,9 @@
 # Viam Micro-RDK Module Template
 
+## EOL Notice
+
+**This version of the module template is no longer supported.** Use the new version [here](https://github.com/viamrobotics/micro-rdk/tree/main/templates/module) instead
+
 ## (In)stability Notice
 
 > **Warning** The Viam Micro-RDK is currently in beta.
